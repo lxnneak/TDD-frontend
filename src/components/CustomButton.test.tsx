@@ -62,7 +62,3 @@ describe("Custom Button Component States", () => {
     expect(customButtonComponent).toHaveClass(ButtonState.clicked)
   })
 })
-
-test("This test should fail", () => {
-  expect(2 + 2).toBe(999)
-})
