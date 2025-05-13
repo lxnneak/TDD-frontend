@@ -1,15 +1,15 @@
-name: lektion-4-react
+name: TDD-frontend
 
 on:
   # Trigger the workflow on push to the 'main' branch
   push:
     branches:
-      - main
+      - master
 
   # Trigger the workflow on a pull request targeting the 'main' branch
   pull_request:
     branches:
-      - main
+      - master
 
 # Describe the actual job
 jobs:
